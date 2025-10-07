@@ -8,3 +8,16 @@
 4. проверить каждый диплом (поместилось ли имя с фамилией, не съехало ли ничего) и объединить в один файл на ilovepdf
 
 все, дипломы готовы, заняло у меня 10 мину на все, когда у дизайнера заняло бы 1,5-2 часа и сэкономила организаторам 2-3к
+
+git clone https://github.com/Bassya2012/programmForPDFfiles sertiks
+
+cd sertiks - в терминале
+
+sudo apt install python3
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
